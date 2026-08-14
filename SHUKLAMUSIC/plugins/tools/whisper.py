@@ -1,16 +1,3 @@
-# -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
-#
-# 📖 License:
-# This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
-#
-# ❤️ Made with dedication and love by ItzShukla
-# -----------------------------------------------
 from SHUKLAMUSIC import app as app
 from config import BOT_USERNAME
 from pyrogram import filters
@@ -123,8 +110,8 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="💒 Whisper",
-            description=f"@SapnaMusicRobot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@SapnaMusicRobot (Target Username or ID) (Your Message).\n\n**Example:**\n@SapnaMusicRobot @username I Wanna Phuck You"),
+            description=f"@SaferionXroBot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@SaferionXroBot (Target Username or ID) (Your Message).\n\n**Example:**\n@SaferionXroBot @username I Wanna Phuck You"),
             thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
             reply_markup=switch_btn
         )
